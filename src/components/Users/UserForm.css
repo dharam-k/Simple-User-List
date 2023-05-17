@@ -1,0 +1,40 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 44px;
+    background: beige;
+    padding: 25px;
+}
+
+.input-wrapper{
+    padding: 5px;
+    width: 400px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-wrapper input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    outline: none !important;
+    font-size: 16px;
+
+}
+
+.input-wrapper input[type="text"]:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+  }
+
+.input-wrapper label{
+    width: 40px;
+    font-weight: 600;
+}
+
+
+
+/* .input-wrapper.submit{
+    display: flex;
+    justify-content: center;
+} */

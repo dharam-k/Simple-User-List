@@ -1,0 +1,16 @@
+ul.user-list-wrapper {
+    height: 400px;
+    width: 500px;
+    border: 1px solid;
+    overflow-y: auto;
+}
+
+ul.user-list-wrapper li{
+    text-decoration: none;
+    font-size: 18px;
+    color: brown;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
